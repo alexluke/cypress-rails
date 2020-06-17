@@ -6,6 +6,10 @@ task :"cypress:init" do
   system "#{CLI} init"
 end
 
+task :"cypress:start_server" do
+  system "#{CLI} start_server"
+end
+
 desc "Open interactive Cypress app for developing tests"
 task :"cypress:open" do
   trap("SIGINT") {} # avoid traceback

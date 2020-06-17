@@ -9,6 +9,8 @@ command = ARGV[0]
 case command
 when "init"
   CypressRails::Init.new.call
+when "start_server"
+  CypressRails::StartServer.new.call
 when "open"
   CypressRails::Open.new.call
 when "run"

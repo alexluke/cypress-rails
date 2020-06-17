@@ -4,6 +4,7 @@ module CypressRails
 end
 
 require "cypress-rails/init"
+require "cypress-rails/start_server"
 require "cypress-rails/open"
 require "cypress-rails/run"
 require "cypress-rails/resets_state"
